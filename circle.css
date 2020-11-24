@@ -1,0 +1,152 @@
+.cr-01,.cr-02,.cr-03,.cr-04,.cr-05,.cr-06,.cr-07,.cr-08,.cr-09,.cr-10,.cr-11,.cr-12,.cr-13,.cr-14,.cr-15{
+	height:15px;
+	width:15px;
+	background-color:white;
+	background-image: linear-gradient(147deg, #04619f 0%, #000000 74%);
+	border-radius:50%;
+	position:absolute;
+	bottom:10px;
+}
+
+.cr-01{
+	left:10px;
+}
+
+.cr-02 {
+	height:30px;
+	width:30px;
+	left:60px;
+	bottom:35px;
+}
+
+.cr-03 {
+	height:50px;
+	width:50px;
+	left:125px;
+	bottom:55px;
+}
+
+.cr-04 {
+	height:90px;
+	width:90px;
+	left:175px;
+	bottom:120px;
+}
+
+.cr-05,.cr-06,.cr-07,.cr-08,.cr-09 {
+	height:200px;
+	width:200px;
+	background-image:none;
+	box-shadow:3px 3px 10px black;
+	bottom:250px;
+}
+.cr-05 {
+	left:255px;
+	box-shadow:-3px 3px 10px black;
+}
+
+.cr-05 img:hover {
+	height:160px;
+	margin:20px 0px 0px 25px;
+	transition:all 500ms;
+}
+
+.cr-06 img:hover {
+	height:140px;
+	margin:20px 0px 0px 25px;
+	transition:all 500ms;
+}
+
+.cr-07 img:hover {
+	height:140px;
+	margin:20px 0px 0px 20px;
+	transition:all 500ms;
+}
+
+.cr-08 img:hover {
+	height:110px;
+	margin:40px 0px 0px px;
+	transition:all 500ms;
+}
+
+
+.cr-06{
+	left:500px;
+	box-shadow:-3px 3px 10px black;
+	top:100px;
+}
+
+.cr-07{
+	right:500px;
+	top:100px;
+}
+
+.cr-08{
+	right:300px;
+	bottom:250px;
+}
+
+.cr-09 {
+	width:400px;
+	height:400px;
+	right:600px;
+	bottom:50px;
+	box-shadow:0px 0px 13px black;
+}
+
+.cr-10, .cr-11,.cr-12,.cr-13,.cr-14,.cr-15 {
+	height:30px;
+	width:30px;
+	background-image: linear-gradient(-140deg, #000000 0%, #04619f 74%);
+	right:-10px;
+	bottom:0;
+}
+
+.cr-11 {
+	height:50px;
+	width:50px;
+	right:45px;
+	bottom:95px;
+}
+
+.cr-12 {
+	height:90px;
+	width:90px;
+	right:125px;
+	bottom:180px;
+}
+
+/* .cr-13 { */
+	/* height:40px; */
+	/* width:40px; */
+	/* right:55px; */
+	/* top:180px; */
+/* } */
+
+/* .cr-14 { */
+	/* height:20px; */
+	/* width:20px; */
+	/* right:35px; */
+	/* top:170px; */
+/* } */
+
+
+img {
+	height:150px;
+	margin:20px 0px 0px 30px;
+}
+
+.cr-08 img {
+	height:100px;
+	margin:50px 0px 0px 20px;
+}
+
+.cr-07 img {
+	height:130px;
+	margin:30px 0px 0px 20px;
+}
+
+.cr-06 img {
+	height:130px;
+	margin:30px 0px 0px 30px;
+}
