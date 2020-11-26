@@ -69,12 +69,12 @@ body {
 	border-radius:20px;
 	margin:70px 0px 0px 300px;
 	box-shadow:-2px -2px 10px black;
-	background:url('../images/quiz2.png');
+	background:url('/images/quiz2.png');
 	background-size:300px auto;
 }
 
 .js-fly-04 {
-	background:url('../images/quiz1.png');
+	background:url('/images/quiz1.png');
 	background-size:300px auto;
 }
 
@@ -93,7 +93,7 @@ body {
 	border-radius:20px;
 	box-shadow:-2px -2px 10px black;
 	margin:-510px 0px 0px 930px;
-	background:url('../images/website.png') center;
+	background:url('/images/website.png') center;
 	background-size:360px auto;
 }
 
