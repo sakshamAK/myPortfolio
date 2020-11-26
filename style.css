@@ -73,7 +73,7 @@ body {
 	background-size:300px auto;
 }
 
-.js-fly-04 {
+.js-fly-04, .js-fly-03 {
 	background:url('/images/quiz1.png');
 	background-size:300px auto;
 }
