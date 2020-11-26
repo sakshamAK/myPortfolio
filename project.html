@@ -2,27 +2,54 @@
 	<head>
 		<link rel = "stylesheet" href = "style.css" />
 		<link rel = "stylesheet" href = "circle.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-dark bg-dark">
 		<ul class = "nm-01">
 			<li><a href = "index.html">Home</a></li>
-			<li><a href = "#blog.html">Blog</a></li>
+			<li><a href = "blog.html">Blog</a></li>
 		</ul>
 		</nav>
 		<div class = "cr-01"></div>
 		<div class = "cr-02"></div>
 		<div class = "cr-03"></div>
-		<div class = "js-images"></div>
-		<div class = "js-images js-fly-02"></div>
+		<div class = "js-images backImageOne"><br>16<sup>th</sup> November 2020<br>A CLI app built with nodeJS. You can send this to your friends and find out who really knows you.</div>
+		<div class = "js-fly-02"></div>
 		<h4 class = "js-project"><a href = "https://repl.it/@SakshamAk/The-me-quiz?embed=1&output=1#index.js" target = "_blank">The Know Me Quiz</a></h4>
 		
-		<div class = "js-images js-fly-03"></div>
-		<div class = "js-images js-fly-04"></div>
+		<div class = "js-images backImageTwo"><br>18<sup>th</sup> November 2020<br>Another nodeJS CLI app. Built as an assignment in the camp. This checks your knowledge on Marvel Cinematic Universe.</div>
+		<div class = "js-fly-04"></div>
 		<h4 class = "js-project js-adjst"><a href = "https://repl.it/@SakshamAk/My-Quiz?embed=1&output=1#index.js" target = "_blank">The Marvel Quiz</a></h4>
 
-		<div class = "oth-project"></div>
-		<div class = "oth-project" id = "oth-fly"></div>
+		<div class = "oth-project backImageThree"><br>22<sup>th</sup> November 2020<br>A component library is a place where you find pre-butified content and you just copy-paste the code, so here&apos;s mine.</div>
+		<div class = "oth-project oth-fly"></div>
 		<h4 id = "oth-heading"><a href = "https://eledesign.netlify.app/" target = "_blank">Component Library</a></h4>
+		<script>
+		$('.js-fly-02').click(function(){
+			$(this).addClass("animateIt").removeClass('backIn');
+			$('.backImageOne').css('visibility','visible');
+		});
+		$('.backImageOne').click(function(){
+			$('.js-fly-02').removeClass('animateIt').addClass("backIn");
+			$(this).css('visibility','hidden');
+		});
+		$('.js-fly-04').click(function(){
+			$(this).addClass("animateIt").removeClass('backIn');
+			$('.backImageTwo').css('visibility','visible');
+		});
+		$('.backImageTwo').click(function(){
+			$('.js-fly-04').removeClass('animateIt').addClass("backIn");
+			$(this).css('visibility','hidden');
+		});
+		$('.oth-fly').click(function(){
+			$(this).addClass("animateIt").removeClass('backIn');
+			$('.backImageThree').css('visibility','visible');
+		});
+		$('.backImageThree').click(function(){
+			$('.oth-fly').removeClass('animateIt').addClass("backIn");
+			$(this).css('visibility','hidden');
+		});
+		</script>
 	</body>
 </html>

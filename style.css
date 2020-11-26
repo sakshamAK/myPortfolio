@@ -63,41 +63,47 @@ body {
 	text-decoration:none;
 }
 
-.js-images {
+.js-images, .js-fly-02, .js-fly-04 {
 	height:150px;
 	width:300px;
 	border-radius:20px;
 	margin:70px 0px 0px 300px;
 	box-shadow:-2px -2px 10px black;
-	background:url('/images/quiz2.png');
-	background-size:300px auto;
+	text-align:center;
+	line-height:25px;
 }
 
-.js-fly-04, .js-fly-03 {
-	background:url('/images/quiz1.png');
-	background-size:300px auto;
+.js-images {
+	visibility:hidden;
 }
 
 .js-fly-02, .js-fly-04 {
+	background:url('../images/quiz2.png');
+	background-size:300px auto;
 	margin:-150px 0px 0px 300px;
 }
 
-.js-fly-02:hover, .js-fly-04:hover {
-	animation:peek 200ms linear forwards;
-	/* transform-origin:150px 200px; */
+.js-fly-04 {
+	background:url('../images/quiz1.png');
+	background-size:300px auto;
 }
 
 .oth-project {
 	height:150px;
+	text-align:center;
 	width:300px;
 	border-radius:20px;
 	box-shadow:-2px -2px 10px black;
 	margin:-510px 0px 0px 930px;
-	background:url('/images/website.png') center;
-	background-size:360px auto;
+	line-height:25px;
+	letter-spacing:1px;
+	visibility:hidden;
 }
 
-#oth-fly{
+.oth-fly{
+	visibility:visible;
+	background:url('../images/website.png') center;
+	background-size:360px auto;
 	margin:-150px 0px 0px 930px;
 	
 }
@@ -106,8 +112,14 @@ body {
 	margin:30px 0px 0px 980px;
 }
 
-#oth-fly:hover {
-	animation:peek 200ms linear forwards;
+.animateIt {
+	animation:peek 100ms linear forwards;
+	/* transform-origin:150px 200px; */
+}
+
+.backIn{
+	animation:comeIn 100ms linear forwards;
+	/* transform-origin:150px 200px; */
 }
 
 .js-adjst {
@@ -115,20 +127,20 @@ body {
 }
 
 @keyframes peek{
-	0%{
-		transform:rotate(0deg);
+	from{
+		width:300px;
 	}
-	25%{
-		transform:rotate(10deg);
+	to{
+		width:0px;
 	}
-	50%{
-		transform:rotate(0deg);
+}
+
+@keyframes comeIn{
+	from{
+		width:0px;
 	}
-	75%{
-		transform:rotate(10deg);
-	}
-	100%{
-		transform:rotate(0deg);
+	to{
+		width:300px;
 	}
 }
 
