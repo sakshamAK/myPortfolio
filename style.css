@@ -89,13 +89,13 @@ a {
 }
 
 .js-fly-02, .js-fly-04 {
-	background:url('../images/quiz2.png');
+	background:url('images/quiz2.png');
 	background-size:300px auto;
 	margin:-150px 0px 0px 300px;
 }
 
 .js-fly-04 {
-	background:url('../images/quiz1.png');
+	background:url('images/quiz1.png');
 	background-size:300px auto;
 }
 
@@ -113,7 +113,7 @@ a {
 
 .oth-fly{
 	visibility:visible;
-	background:url('../images/website.png') center;
+	background:url('images/website.png') center;
 	background-size:360px auto;
 	margin:-150px 0px 0px 930px;
 	
