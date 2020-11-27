@@ -1,4 +1,4 @@
-.cr-01,.cr-02,.cr-03,.cr-04,.cr-05,.cr-06,.cr-07,.cr-08,.cr-09,.cr-10,.cr-11,.cr-12,.cr-13,.cr-14,.cr-15{
+.cr-01,.cr-02,.cr-03,.cr-04,.cr-05,.cr-06,.cr-07,.cr-08,.cr-10,.cr-12,.cr-13,.cr-14,.cr-15{
 	height:20px;
 	width:20px;
 	background-color:white;
@@ -37,7 +37,7 @@
 }
 
 
-.cr-05,.cr-06,.cr-07,.cr-08,.cr-09 {
+.cr-05,.cr-06,.cr-07,.cr-08{
 	height:200px;
 	width:200px;
 	background-image:none;
@@ -120,15 +120,16 @@
 .cr-09 {
 	width:300px;
 	height:300px;
-	right:660px;
-	top:150px;
 	box-shadow:0px 0px 13px black;
 	background:url('images/saksham.jpg') center;
 	background-size:300px auto;
 	z-index:2;
+	margin:20px 0 0 0;
+	border-radius:50%;
+	position:absolute;
 }
 
-.cr-10, .cr-11,.cr-12,.cr-13,.cr-14,.cr-15 {
+.cr-10,.cr-12,.cr-13,.cr-14,.cr-15 {
 	height:30px;
 	width:30px;
 	background-image: linear-gradient(-140deg, #000000 0%, #04619f 74%);
@@ -136,13 +137,44 @@
 	bottom:0;
 }
 
-.cr-11 {
+.git, .twitter, .codepen, .linkedin, .instagram{
+	border-radius:50%;
+	background:url('images/github.svg') center no-repeat;
+	background-size:35px auto;
 	height:50px;
+	cursor:pointer;
 	width:50px;
-	right:45px;
-	bottom:95px;
+	float:left;
+	margin:0px 0px 0px 30px;
 }
 
+.twitter {
+	background:url('images/twitter.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.linkedin {
+	background:url('images/linkedin.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.codepen {
+	background:url('images/codepen.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.instagram {
+	background:url('images/instagram.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+.buttons {
+	margin:430px 0 0 -50px;
+	position:absolute;
+} 
 .cr-12 {
 	height:90px;
 	width:90px;
