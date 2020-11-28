@@ -3,6 +3,40 @@
 		<link rel = "stylesheet" href = "style.css" />
 		<link rel = "stylesheet" href = "circle.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style>
+			
+			.justifyContent {
+				flex-direction:rows;
+				overflow:auto;
+				padding:0px 50px;
+			}
+			.justifyContent h1{
+				margin:0;
+				color:black;
+			}
+			.justifyContent a, h3, p, h2 {
+				color:black;
+			}
+			img { margin:0;}
+			
+			.items {
+				box-shadow:0px 0px 10px black;
+				background:white;
+				border-radius:20px;
+				display:flex;
+				margin-right:30px;
+				flex-direction:column;
+				font-family: 'Noto Sans JP', sans-serif;
+				align-items:center;
+				padding:30px;
+				justify-content:justify;
+				text-align:center;
+				width:300px;
+			}
+			.items h1 {
+			letter-spacing:0px;
+			}
+		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-dark bg-dark">
@@ -14,51 +48,31 @@
 		<div class = "cr-01"></div>
 		<div class = "cr-02"></div>
 		<div class = "cr-03"></div>
-		<div class = "js-images backImageOne"><h3>The Know Me Quiz</h3><br>16<sup>th</sup> November 2020<br>A CLI app built with nodeJS. You can send this to your friends and find out who really knows you.</div>
-		<div class = "js-fly-02"></div>
-		<h4 class = "js-project">
-			<a href = "https://repl.it/@SakshamAk/The-me-quiz?embed=1&output=1#index.js" target = "_blank">Try it here</a>
-			<a href = "https://github.com/sakshamAK/knowAboutMe" target = "_blank">Github code</a>
-			</h4>
-		
-		<div class = "js-images backImageTwo"><h3>The Marvel Quiz</h3><br>18<sup>th</sup> November 2020<br>Another nodeJS CLI app. This checks your knowledge on Marvel Cinematic Universe.</div>
-		<div class = "js-fly-04"></div>
-		<h4 class = "js-project js-adjst">
-			<a href = "https://repl.it/@SakshamAk/My-Quiz?embed=1&output=1#index.js" target = "_blank">Try it here</a>
-			<a href = "https://github.com/sakshamAK/MCUquiz" target = "_blank">Github Code</a>
-		</h4>
-
-		<div class = "oth-project backImageThree"><h4>Component Library</h4><br>22<sup>th</sup> November 2020<br>A place where you find pre-butified content and you just copy-paste the code, so here&apos;s mine.</div>
-		<div class = "oth-project oth-fly"></div>
-		<h4 id = "oth-heading">
-			<a href = "https://eledesign.netlify.app/" target = "_blank">Try it here</a>
-			<a href = "https://github.com/sakshamAK/ComponentLibrary" target = "_blank">Github Code</a>
-		</h4>
-		<script>
-		$('.js-fly-02').click(function(){
-			$(this).addClass("animateIt").removeClass('backIn');
-			$('.backImageOne').css('visibility','visible');
-		});
-		$('.backImageOne').click(function(){
-			$('.js-fly-02').removeClass('animateIt').addClass("backIn");
-			$(this).css('visibility','hidden');
-		});
-		$('.js-fly-04').click(function(){
-			$(this).addClass("animateIt").removeClass('backIn');
-			$('.backImageTwo').css('visibility','visible');
-		});
-		$('.backImageTwo').click(function(){
-			$('.js-fly-04').removeClass('animateIt').addClass("backIn");
-			$(this).css('visibility','hidden');
-		});
-		$('.oth-fly').click(function(){
-			$(this).addClass("animateIt").removeClass('backIn');
-			$('.backImageThree').css('visibility','visible');
-		});
-		$('.backImageThree').click(function(){
-			$('.oth-fly').removeClass('animateIt').addClass("backIn");
-			$(this).css('visibility','hidden');
-		});
-		</script>
+		<div class = "justifyContent">
+			<div class = "items">
+				<img src = "images/quiz2.png" />
+				<h2>The Know Me Quiz</h2>
+				<h3>14<sup>th</sup> November, 2020</h3>
+				<p>A CLI app built with nodeJS. You can send this to your friends and find out who really knows you. Lets give them a chance.</p>
+				<h3><strong><a href = "https://repl.it/@SakshamAk/The-me-quiz?embed=1&output=1#index.js" target = "_blank">Try it here</a></strong></h3>
+				<h3><strong><a href = "https://github.com/sakshamAK/knowAboutMe" target = "_blank">Github code</a></strong></h3>
+			</div>
+			<div class = "items">
+				<img src = "images/quiz1.png" />
+				<h2>Marvel Quiz</h2>
+				<h3>14<sup>th</sup> November, 2020</h3>
+				<p>Another nodeJS CLI app. Built as an assignment in the camp. This checks your knowledge on Marvel Cinematic Universe.</p>
+				<h3><strong><a href = "https://repl.it/@SakshamAk/My-Quiz?embed=1&output=1#index.js" target = "_blank">Try it here</a></strong></h3>
+				<h3><strong><a href = "https://github.com/sakshamAK/MCUquiz" target = "_blank">Github code</a></strong></h3>
+			</div>
+			<div class = "items">
+				<img src = "images/website.png" />
+				<h2>Component Library</h2>
+				<h3>20<sup>th</sup> November, 2020</h3>
+				<p>My personal component library. A component library is a place where you get pre-designed HTML elements for your code.</p>
+				<h3><strong><a href = "https://eledesign.netlify.app/" target = "_blank">Try it here</a></strong></h3>
+				<h3><strong><a href = "https://github.com/sakshamAK/ComponentLibrary" target = "_blank">Github Code</a></strong></h3>
+			</div>
+		</div>
 	</body>
 </html>

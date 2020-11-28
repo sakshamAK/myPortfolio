@@ -57,80 +57,11 @@ a {
 	top:30px;
 }
 
-.js-project, #oth-heading{
-	font-family: 'Noto Sans JP', sans-serif;
-	font-size:20px;
-	margin-left:300px;
-	letter-spacing:1px;
-}
-.js-project a, #oth-heading a, .js-images h3 {
-	font-family: 'Noto Sans JP', sans-serif;
-	text-decoration:none;
-	margin-bottom:-10px;
-	padding-top:10px;
-}
-.js-images {
-	font-family: 'Lora', serif;
-	visibility:hidden;
-}
-
-.js-project a:nth-of-type(2) {
-	margin-left:70px;
-}
-
-.js-images, .js-fly-02, .js-fly-04 {
-	height:150px;
-	width:300px;
-	cursor:pointer;
-	border-radius:20px;
-	margin:70px 0px 0px 300px;
-	box-shadow:-2px -2px 10px black;
-	text-align:center;
-}
-
-.js-fly-02, .js-fly-04 {
-	background:url('images/quiz2.png');
-	background-size:300px auto;
-	margin:-150px 0px 0px 300px;
-}
-
-.js-fly-04 {
-	background:url('images/quiz1.png');
-	background-size:300px auto;
-}
-
-.oth-project {
-	height:150px;
-	text-align:center;
-	width:300px;
-	border-radius:20px;
-	box-shadow:-2px -2px 10px black;
-	margin:-510px 0px 0px 930px;
-	cursor:pointer;
-	visibility:hidden;
-	font-family: 'Lora', serif;
-}
-
-.oth-fly{
-	visibility:visible;
-	background:url('images/website.png') center;
-	background-size:360px auto;
-	margin:-150px 0px 0px 930px;
-	
-}
 
 .backImageThree h4 {
 	font-family: 'Noto Sans JP', sans-serif;
 	margin-bottom:-10px;
 	padding-top:10px;
-}
-
-#oth-heading {
-	margin:30px 0px 0px 930px;
-}
-
-#oth-heading a:nth-of-type(2){
-	margin-left:70px;
 }
 
 .animateIt {
@@ -143,9 +74,6 @@ a {
 	/* transform-origin:150px 200px; */
 }
 
-.js-adjst {
-	margin-left:300px;
-}
 
 @keyframes peek{
 	from{
