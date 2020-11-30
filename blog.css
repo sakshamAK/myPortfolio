@@ -2,6 +2,10 @@
 	color:white;
 }
 
+body {
+	overflow:auto;
+}
+
 div a {
 	text-decoration:none;
 }
