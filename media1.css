@@ -116,6 +116,23 @@
 	}
 }
 
+@media screen and (max-width: 400px){
+	.cr-09 {
+		height:200px;
+		width:200px;
+		margin:80px 0 0 0;
+		background-size:200px auto;
+	}
+	#intro:before{
+		margin-top:-60px;
+	}
+	.cr-02 {
+		display:none;
+	}
+	.buttons{
+		margin-top: 420px;
+	}
+}
 
 
 
