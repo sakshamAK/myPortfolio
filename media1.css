@@ -78,6 +78,9 @@
 	.cr-09 {
 		margin-left: -20px;
 	}
+	.justifyContent {
+		margin-bottom:0;
+	}
 	.justifyContent h1 {
 		margin-left:-30px;
 	}
