@@ -1,0 +1,226 @@
+.cr-01,.cr-02,.cr-03,.cr-04,.cr-05,.cr-06,.cr-07,.cr-08,.cr-10,.cr-12,.cr-13,.cr-14,.cr-15{
+	height:20px;
+	width:20px;
+	background-color:white;
+	background-image: linear-gradient(147deg, #04619f 0%, #000000 74%);
+	border-radius:50%;
+	position:absolute;
+	bottom:10px;
+}
+
+.cr-01{
+	top:10px;
+	left:10px;
+	offset-path:path('m-0.60896,890.93995c101.96166,80.39285 372.55224,-311.76741 205.88413,-456.8667c-166.66811,-145.0993 -19.60801,-256.86497 7.84321,-278.43379c27.45122,-21.56881 450.68171,-258.22202 127.91073,-377.20971');
+	animation:move 15s infinite linear;
+	z-index:-1;
+}
+
+.cr-02 {
+	height:30px;
+	width:30px;
+	left:60px;
+	top:0;
+	offset-path:path('m307.69038,1009.61329c139.8177,20.69412 182.05208,-335.89891 179.48797,-464.1046c-2.56411,-128.20569 -153.84683,-235.89847 -156.41094,-330.77068c-2.56411,-94.87221 151.28271,-230.77024 153.84683,-302.56543c2.56411,-71.79519 -61.53873,-46.15405 -64.09957,-45.50649');
+	animation:move 20s infinite linear;
+	z-index:-1;
+}
+
+.cr-03 {
+	height:20px;
+	width:20px;
+	left:-215px;
+	top:30;
+	offset-path:path('m284.61335,858.33058c165.45884,171.97683 248.71904,-289.74486 238.46258,-410.25821c-10.25646,-120.51335 -125.64158,-169.23151 -174.35974,-276.92429c-48.71816,-107.69278 143.59037,-130.7698 146.15449,-251.28315c2.56411,-120.51335 -110.25689,-233.33436 -112.82101,-233.33436');
+	animation:move 25s infinite linear;
+	z-index:-1;
+}
+
+
+.cr-05,.cr-06,.cr-07,.cr-08{
+	height:200px;
+	width:200px;
+	background-image:none;
+	box-shadow:3px 3px 10px black;
+	bottom:250px;
+}
+
+.cr-05 img:hover {
+	height:160px;
+	margin:20px 0px 0px 25px;
+	transition:all 500ms;
+}
+
+.cr-06 img:hover {
+	height:140px;
+	margin:20px 0px 0px 25px;
+	transition:all 500ms;
+}
+
+.cr-07 img:hover {
+	height:140px;
+	margin:30px 0px 0px 10px;
+	transition:all 500ms;
+}
+
+.cr-08 img:hover {
+	height:110px;
+	margin:40px 0px 0px px;
+	transition:all 500ms;
+}
+
+.cr-05 {
+	left:100px;
+	top:0;
+	box-shadow:-3px 3px 10px black;
+	offset-path: path('m-165.35825,853.05769c0,0 101.75517,-361.40627 563.1622,-303.51109c461.40704,57.89518 566.671,-17.544 724.56695,-182.45754c157.89594,-164.91354 166.66794,-324.56388 487.72302,-371.93267c321.05509,-47.36878 371.93267,-133.33435 371.93267,-136.84315');
+	animation:move 50s infinite linear;
+	transform-origin:600px 0px;
+	z-index:1;
+}
+
+.cr-06{
+	left:300px;
+	box-shadow:-3px 3px 10px black;
+	top:0;
+	offset-path: path('m-151.32305,73.90944c-3.5088,0 401.75746,-128.07116 675.44376,57.89518c273.6863,185.96633 192.98393,256.14231 617.54858,345.61667c424.56465,89.47437 494.74062,557.89901 493.43089,557.67432');
+	transform-origin:390px 0px;
+	animation: move 50s infinite linear;
+	z-index:1;
+}
+
+.cr-07{
+	left:100px;
+	top:65px;
+	offset-path: path('m1691.85743,890.30336c-127.64115,-503.69542 -485.71443,-225.39689 -844.4447,-330.15883c-358.73026,-104.76194 -347.61915,-353.96835 -680.95258,-377.77788c-333.33343,-23.80954 -253.96832,-201.58738 -425.39695,-317.46043');
+	animation: move 50s infinite linear;
+	z-index:1;
+}
+
+.cr-08{
+	right:520px;
+	top:100px;
+	offset-path: path('m84.86576,188.72981c0,0 372.55254,-249.02196 598.04487,-72.5497c225.49232,176.47225 -31.37285,419.6118 -31.9241,419.11906c0.55125,0.49274 -254.35312,225.98507 -219.05867,-26.9585c35.29445,-252.94356 533.33837,-317.65006 532.78712,-318.1428c0.55125,0.49274 265.25964,-68.13536 371.14299,204.41624c105.88335,272.55159 -94.11853,454.90626 -94.66979,454.41351c-1687.69999,47.55202 -1466.12927,-436.76629 -1156.32242,-660.29781z');
+	animation: move 130s infinite linear;
+	transform-origin:290px 280px;
+	z-index:1;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+	/* transform:rotate(0deg); */
+  }
+  100% {
+    offset-distance: 100%;
+	/* transform:rotate(360deg); */
+  }
+}
+
+.cr-09, .aboutMe {
+	width:300px;
+	height:300px;
+	box-shadow:0px 0px 13px black;
+	background:url('images/saksham.jpg') center;
+	background-size:300px auto;
+	z-index:2;
+	margin:20px 0 0 0;
+	border-radius:50%;
+	position:absolute;
+	transform-style: preserve-3d;
+	animation: flip 1s;
+	backface-visibility: hidden;
+}
+
+.aboutMe {
+	background: #1e1e1e;
+	font-size: 21px;
+}
+
+.cr-09:hover {
+	transform: rotateY(180deg);
+	transition:transform 1s;
+}
+
+.cr-10,.cr-12,.cr-13,.cr-14,.cr-15 {
+	height:30px;
+	width:30px;
+	background-image: linear-gradient(-140deg, #000000 0%, #04619f 74%);
+	right:-10px;
+	bottom:0;
+}
+
+.git, .twitter, .codepen, .linkedin, .instagram{
+	border-radius:50%;
+	background:url('images/github.svg') center no-repeat;
+	background-size:35px auto;
+	height:50px;
+	cursor:pointer;
+	width:50px;
+	float:left;
+	margin:0px 0px 0px 30px;
+}
+
+.twitter {
+	background:url('images/twitter.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.linkedin {
+	background:url('images/linkedin.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.codepen {
+	background:url('images/codepen.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+
+.instagram {
+	background:url('images/instagram.svg') center no-repeat;
+	background-size:35px auto;
+}
+
+.buttons {
+	margin:430px 0 0 -50px;
+	position:absolute;
+} 
+.cr-12 {
+	height:90px;
+	width:90px;
+	right:125px;
+	bottom:180px;
+}
+
+img {
+	height:150px;
+	margin:20px 0px 0px 30px;
+}
+
+.cr-08 img {
+	height:100px;
+	margin:50px 0px 0px 20px;
+}
+
+.cr-07 img {
+	height:130px;
+	margin:30px 0px 0px 20px;
+}
+
+.cr-06 img {
+	height:130px;
+	margin:30px 0px 0px 30px;
+}
+
+
+@keyframes flip {
+	0%, 100% {
+		transform: rotateY(0deg);
+	}
+	50% {
+		transform: rotateY(50deg;)
+	}
+}
