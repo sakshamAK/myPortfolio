@@ -159,16 +159,6 @@
   backface-visibility: hidden;
 }
 
-.aboutMe {
-  background: #1e1e1e;
-  font-size: 21px;
-}
-
-.cr-09:hover {
-  transform: rotateY(180deg);
-  transition: transform 1s;
-}
-
 .cr-10,
 .cr-12,
 .cr-13,
